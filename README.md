@@ -12,5 +12,7 @@ https://rogerdudler.github.io/git-guide/index.pt_BR.html
 Enviar os arquivos
 
 git add *
+
 git commit -m "comentários das alterações"
+
 git push origin master
