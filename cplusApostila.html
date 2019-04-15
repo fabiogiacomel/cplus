@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Revisão de Conteudo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <h1>Como um programa em C++ é estruturado?</h1>
+
+  <div class="alert alert-success">
+    <strong>Bibliotecas </strong> 
+  </div>
+  <div class="alert alert-info">
+    <strong>Declaração de namespace</strong>
+  </div>
+  <div class="alert alert-warning">
+    <strong>Função Principal</strong> 
+  </div>
+</br></br>
+  <h1>O que é uma biblioteca?</h1>
+  <span class="badge badge-danger">Exemplo</span>
+  <a href="#" data-toggle="tooltip" title="Biblioteca que contem o cin e cout">#include &lt;iostream&gt;</a>
+</br></br>
+  <p class="bg-info text-white">Já pensou em escrever um código do zero? Primeiro que o computador não entende a nossa lingua então 
+  os programadores teriam que escrever o código diretamente em linguagem de máquina <kbd>010101110101.</kbd> isso não é produtivo! Então 
+as linguagens trazem as biblitecas que são códigos comuns e úteis que são incluidos nos códigos fontes já imaginou se você tivesse que criar uma função que escrevesse algo na tela do 
+computador?
+</p>
+
+</br></br>
+<h1>Por que declarar um namespace?</h1>
+<span class="badge badge-danger">Exemplo</span>
+<a href="#" data-toggle="tooltip" title="Declarando o namespace std">using namespace std;</a>
+</br></br>
+
+<p class="bg-secondary text-white"> 
+        Em várias linguagens de programação, um espaço de nomes é um contexto para identificadores. Um espaço de nomes não pode possuir duas funções ou variáveis com o mesmo nome. No entanto, é permitido em linguagens de programação abrir espaços de nomes dentro de outros espaços de nomes, formando uma árvore de espaços de nomes. A raiz da árvore é conhecida como o espaço de nomes global, que é visível para todos os outros espaços de um programa de computador. Esse recurso é usado para organizar projetos de programas de computador de forma modular. Ele também é usado para evitar uma colisão de nomes: quando utilizam-se duas bibliotecas de rotinas distintas em um mesmo projeto, pode acontecer de uma mesma função estar declarada em ambas. Sem o uso de espaço de nomes, as bibliotecas não podem ser usadas ao mesmo tempo (em um mesmo módulo). 
+  </p>
+</div>  
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+</body>
+</html>
